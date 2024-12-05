@@ -8,7 +8,7 @@ struct Rule {
 };
 
 bool active[MAX_UPDATE];
-bool rule[MAX_PAGE][MAX_PAGE];
+bool rule[MAX_PAGE + 1][MAX_PAGE + 1];
 int n, sp;
 int update[MAX_UPDATE], new_update[MAX_UPDATE];
 
